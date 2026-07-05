@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <setting id="ad_folder" type="folder" label="Commercial Source" default=""></setting>
+    <setting id="ad_total" type="number" label="Commercials per break" default="1"></setting>
+    <setting id="ad_chapters" type="bool" label="Commercials during chapter switch" default="false"></setting>
+</settings>
