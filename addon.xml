@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.playasstation" name="Play with Commercials" version="1.0.2" provider-name="faithvoid">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="main.py">
+                <label>Play with Commercials</label>
+                <visible>true</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Play your favourite shows with commercial breaks!</summary>
+        <description lang="en">Simulate the cable TV station experience by playing your favourite shows with commercial breaks shuffled in!</description>
+        <platform>all</platform>
+        <provides>executable</provides>
+    </extension>
+</addon>
